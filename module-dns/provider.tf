@@ -1,3 +1,4 @@
+/*
 terraform {
   required_providers {
     namecheap = {
@@ -6,3 +7,4 @@ terraform {
     }
   }
 }
+*/
