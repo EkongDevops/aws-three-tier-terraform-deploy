@@ -52,7 +52,7 @@ variable "min_size" {
 variable "instance_types" {
   description = "Instance types for the EKS node group"
   type        = list(string)
-  default     = ["t2.micro"]    
+  default     = ["t3.micro"]    
 } 
 
 variable "capacity_type" {
@@ -80,13 +80,13 @@ variable "label_one" {
 variable "zone_name" {
   description = "Name of the DNS zone"
   type        = string
-  default     = "example.com"
+  default     = "donchris.online"
 }
 
 variable "domain-name" {
   description = "Domain name to be created"
   type        = string
-  default     = "myapp.example.com"
+  default     = "donchris.online"
 }
 
 variable "namecheap_api_user" {
