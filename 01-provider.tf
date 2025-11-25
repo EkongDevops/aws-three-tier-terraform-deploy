@@ -27,6 +27,6 @@ provider "namecheap" {
 }
 */
 
-provider "aws" {
+/*provider "aws" {
   region = "eu-north-1"
-}
+}*/
