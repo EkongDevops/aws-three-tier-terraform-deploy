@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "dcbucket"
+    bucket = "dcproject1"
     key    = "state/terraform.tfstate"
     region = "eu-north-1"
   }
